@@ -1,20 +1,22 @@
 import React , {Component} from 'react';
-import { StyleSheet, View, Image, ScrollView, ActivityIndicator } from 'react-native';
-import { Container, Header, Item,Content,Input, Card, CardItem, Thumbnail, Text, Button, Icon, Left, Body, Right } from 'native-base';
+import { StyleSheet, Image, ScrollView, ActivityIndicator } from 'react-native';
+import { Container, Header, Item, Input, Card, CardItem, Text, Button, Icon, Left, Right } from 'native-base';
 import { FlatGrid } from 'react-native-super-grid';
 import axios from 'axios';
+import AsyncStorage from '@react-native-community/async-storage';
 const months=['Jan','Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 export default class SearchPage extends Component {
     constructor(props) {
         super(props);
         this.state = {
             refreshing: false,
-            keyword: '',
+            keyword: 'search',
             gifs: [],
             offset: 0,
         };
         this.onChangeKeyword = this.onChangeKeyword.bind(this);
         this.loadMore = this.loadMore.bind(this);
+        this.onPressLike = this.onPressLike.bind(this);
         this.renderFooter =  this.renderFooter.bind(this);
     }
     getData(){
@@ -36,7 +38,7 @@ export default class SearchPage extends Component {
         this.setState({
             refreshing:true,
         },this.getData());
-
+        
     }
     onChangeKeyword = search => {
         this.setState({
@@ -59,6 +61,25 @@ export default class SearchPage extends Component {
             <ActivityIndicator size="large" color="#000" />
         )
     }
+
+    onPressLike=async(item)=>{
+        const record = {
+            key: item.images.preview_gif.url,
+            title: item.title.length<15
+                ?item.title.toUpperCase()
+                :item.title.toUpperCase().substring(0,15),
+            date: item.import_datetime.substring(8, 10)+', '+months[parseInt(item.import_datetime.substring(5, 7))]
+        }
+        const list = await AsyncStorage.getItem('favorite');
+        var favorites = []
+        if(list !== null) {
+            favorites = JSON.parse(list);
+        }
+        favorites.push(record);
+        console.warn(`favorite list size = ${favorites.length}`);
+        await AsyncStorage.setItem('favorite', JSON.stringify(favorites));
+    }
+
     render(){
         return (
             <Container>
@@ -96,7 +117,10 @@ export default class SearchPage extends Component {
                                 </CardItem>   
                                 <CardItem>
                                     <Left>
-                                    <Button transparent>
+                                    <Button 
+                                        transparent
+                                        onPress = {()=>{this.onPressLike(item)}}
+                                    >
                                         <Icon active name="ios-heart-empty" />
                                     </Button>
                                     </Left>
