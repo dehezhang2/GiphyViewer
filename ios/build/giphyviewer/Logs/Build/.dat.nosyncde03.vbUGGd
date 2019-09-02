@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>261109EF-A1D9-45AC-980E-59426AB1AA53</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>261109EF-A1D9-45AC-980E-59426AB1AA53.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>giphyviewer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>giphyviewer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project giphyviewer with scheme giphyviewer and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>588667396.09857202</real>
+			<key>timeStoppedRecording</key>
+			<real>588667397.99803102</real>
+			<key>title</key>
+			<string>Building project giphyviewer with scheme giphyviewer and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>261109EF-A1D9-45AC-980E-59426AB1AA53</string>
+		</dict>
+		<key>BA4384D6-8DB8-45B5-AAE6-52D7B814749D</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>BA4384D6-8DB8-45B5-AAE6-52D7B814749D.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>giphyviewer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>giphyviewer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project giphyviewer with scheme giphyviewer and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>588667728.50161004</real>
+			<key>timeStoppedRecording</key>
+			<real>588667729.35538805</real>
+			<key>title</key>
+			<string>Building project giphyviewer with scheme giphyviewer and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>BA4384D6-8DB8-45B5-AAE6-52D7B814749D</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

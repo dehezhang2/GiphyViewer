@@ -1,0 +1,46 @@
+dependencies: \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/RNGestureHandler/ios/RNGestureHandlerManager.m \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Target\ Support\ Files/RNGestureHandler/RNGestureHandler-prefix.pch \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/RNGestureHandler/ios/RNGestureHandlerManager.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTBridgeModule.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTDefines.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Private/React/RCTInspectorDevServerHelper.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Private/React/RCTPackagerConnection.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTUIManager.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTBridge.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTBridgeDelegate.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTJavaScriptLoader.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTFrameUpdate.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTInvalidating.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTRootView.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTViewManager.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTConvert.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTAnimationType.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTBorderStyle.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTLog.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTAssert.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTUtils.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTPointerEvents.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTTextDecorationLineType.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Private/yoga/Yoga.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Private/yoga/YGEnums.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Private/yoga/YGMacros.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Private/yoga/YGValue.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTEventDispatcher.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/UIView+React.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTComponent.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/Headers/Public/React/React/RCTTouchHandler.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/RNGestureHandler/ios/RNGestureHandlerState.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/RNGestureHandler/ios/RNGestureHandler.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/RNGestureHandler/ios/RNGestureHandlerDirection.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/RNGestureHandler/ios/RNGestureHandlerEvents.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/RNGestureHandler/ios/RNGestureHandlerRegistry.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/RNGestureHandler/ios/RNRootViewGestureRecognizer.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/RNGestureHandler/ios/Handlers/RNPanHandler.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/RNGestureHandler/ios/Handlers/RNTapHandler.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/RNGestureHandler/ios/Handlers/RNFlingHandler.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/RNGestureHandler/ios/Handlers/RNLongPressHandler.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/RNGestureHandler/ios/Handlers/RNNativeViewHandler.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/RNGestureHandler/ios/Handlers/RNPinchHandler.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/RNGestureHandler/ios/Handlers/RNRotationHandler.h \
+  /Users/zdh/Desktop/work/Giphy/GiphyViewer/ios/Pods/RNGestureHandler/ios/Handlers/RNForceTouchHandler.h
