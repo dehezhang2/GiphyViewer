@@ -6,6 +6,38 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>004EBF40-3451-45B0-A5E9-A127FAF14292</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>004EBF40-3451-45B0-A5E9-A127FAF14292.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>giphyviewer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>giphyviewer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace giphyviewer with scheme giphyviewer and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>589174005.18597305</real>
+			<key>timeStoppedRecording</key>
+			<real>589174007.02627897</real>
+			<key>title</key>
+			<string>Building workspace giphyviewer with scheme giphyviewer and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>004EBF40-3451-45B0-A5E9-A127FAF14292</string>
+		</dict>
 		<key>51021104-BB2F-415C-8B04-7EED7A4CCD1F</key>
 		<dict>
 			<key>className</key>
